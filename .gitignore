@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # Custom
-src/raw_data/*
+src/raw_data/*.xlsx
 
 # C extensions
 *.so
