@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Custom
+src/raw_data/IMP_2023_WEB.xlsx
+src/raw_data/Perfil_EmpresasImpo_2022_WEB.xlsx
+
 # C extensions
 *.so
 
