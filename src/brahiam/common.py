@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import matplotlib.font_manager
 import pandas as pd
 import numpy as np
-import openpyxl
 import json
 import os
 
@@ -34,8 +33,9 @@ def set_output(fname, folder = 'output'):
 
     return path, save_path
 
-def get_rwdp(): # Raw Data Path
-    return 'raw_data/Perfil_EmpresasImpo_2022_WEB.xlsx'
+def get_rwdp(i): # Raw Data Path
+    rdata = '../raw_data/Perfil_EmpresasImpo_2022_WEB.xlsx' if i == 0 else '../raw_data/IMP_2023_WEB.xlsx'
+    return rdata
 
 def draw_hplot(x, y, dftp, colname):
     
