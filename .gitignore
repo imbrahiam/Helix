@@ -5,6 +5,7 @@ __pycache__/
 
 # Custom
 src/raw_data/*.xlsx
+.vscode
 
 # C extensions
 *.so
